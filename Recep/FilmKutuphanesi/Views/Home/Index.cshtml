@@ -1,0 +1,31 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div>
+        ANASAYFA<br />
+        <a href="Home/KayitOl">Kayit Ol Sayfasi</a>
+
+        <br />
+        <br />
+        <hr />
+        <h2>Giris Yap</h2>
+        <form action="/Home/Index" method="POST">
+            <label for="fname">Kullanici Adi:</label>
+            <input type="text" id="kullaniciAdi" name="kullaniciAdi"><br><br>
+            <label for="lname">Sifre:</label>
+            <input type="password" id="sifre" name="sifre"><br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>
